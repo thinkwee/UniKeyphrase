@@ -163,7 +163,7 @@ print(args)
 # 初始化tokenizer，因为要对齐token和label
 # 因此在输入BERT之前就需要tokenize
 tokenizer = tokenization.FullTokenizer(
-    vocab_file="/apdcephfs/share_774517/data/thinkweeliu/unilm_data/bert_config/bert-base-cased/vocab.txt",   
+    vocab_file="xxx/xxx/bert-base-cased/vocab.txt",   
     do_lower_case=True)
 
 if args.data_path == "all":
