@@ -1,6 +1,7 @@
 # UniKeyphrase
 -   code for the ACL 2021 findings paper "UniKeyphrase: A Unified Extraction and Generation Framework for Keyphrase Prediction"
 -   preprint paper: [arxiv](https://arxiv.org/pdf/2106.04847.pdf)
+-   【2022.6.13】Update dataset preprocess and evaluate scripts. The datasets can be found in [https://github.com/memray/OpenNMT-kpg-release](https://github.com/memray/OpenNMT-kpg-release), we also give three test sets in dataset.zip
 -   【2021.8.31】Update v2 version of the paper, no model code changed. See [v2](https://arxiv.org/abs/2106.04847) for the new version, [v1](https://arxiv.org/abs/2106.04847v1) for the older version
     -   fix a improper tokenization on the datasets which may lead to high results on present F1@M and low results on absent F1@5 & F1@M
     -   update some results of baseline(SEG-NET) from arxiv version to the newest ACL version
